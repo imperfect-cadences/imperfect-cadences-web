@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imperfect Cadences</title>
+    <style>
+      :root {
+        --bg: #fcffe6;
+        --text: #23637a;
+        --accent: #666;
+        --font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: var(--font);
+        background-color: var(--bg);
+        color: var(--text);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 2rem;
+      }
+
+      .container {
+        text-align: center;
+        max-width: 700px;
+        width: 100%;
+      }
+
+      .logo {
+        margin: 0 auto 1.5rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 1rem;
+        color: var(--accent);
+      }
+
+      @media (min-width: 768px) {
+        h1 {
+          font-size: 2.2rem;
+        }
+
+        p {
+          font-size: 1.125rem;
+        }
+      }
+
+      @media (max-width: 680px) {
+        .logo {
+          max-width: 300px;
+          margin: 0 auto 1.5rem;
+        }
+
+        h1 {
+          font-size: 1.2rem;
+        }
+
+        p {
+          font-size: 0.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Thanks for visiting Imperfect Cadences.</h1>
+      <p>Something new is taking shape. Imperfection awaits.</p>
+      <img src="logo.png" alt="Imperfect Cadences Logo" class="logo" />
+    </div>
+  </body>
+</html>
